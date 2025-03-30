@@ -9,5 +9,4 @@ MarkupSafe==2.1.0
 requests==2.27.1
 urllib3==1.26.9
 Werkzeug==2.0.3
-python-dotenv==0.19.2
 Gunicorn
