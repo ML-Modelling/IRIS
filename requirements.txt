@@ -1,7 +1,6 @@
 Flask
 Gunicorn
 jsonify
-pickle
 request
 pickle
 numpy
