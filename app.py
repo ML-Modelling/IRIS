@@ -1,10 +1,13 @@
 from flask import Flask, render_template, request, jsonify
 import pickle
 import numpy as np
+import os
 
-# Load the trained model
-with open("iris_model.pkl", "rb") as f:
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "iris_model.pkl")
+
+with open(MODEL_PATH, "rb") as f:
     model = pickle.load(f)
+
 
 # Initialize Flask app
 app = Flask(__name__)
