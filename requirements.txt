@@ -1,2 +1,7 @@
 Flask
 Gunicorn
+jsonify
+import pickle
+request
+pickle
+numpy
