@@ -1,6 +1,2 @@
 Flask
 Gunicorn
-jsonify
-request
-pickle
-numpy
